@@ -1,0 +1,6 @@
+//Instruction to use SFML without IDE:
+//Extract the downloaded zip file.
+//Copy the include and lib folders into your project folder
+//Open the bin folder and copy ALL the .dll files into your current project folder
+//Copy the entire command below into the Developer Console (after you cd to the path first of course)
+cl /EHsc SFML_test.cpp /I include /link /LIBPATH:lib sfml-graphics.lib sfml-window.lib sfml-system.lib

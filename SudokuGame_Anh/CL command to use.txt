@@ -1,0 +1,5 @@
+
+cl /EHsc SFML_text_test.cpp /I include /link /LIBPATH:lib sfml-graphics.lib sfml-window.lib sfml-system.lib
+cl /EHsc Sudoku.cpp sudokuBoard.cpp /I include /link /LIBPATH:lib sfml-graphics.lib sfml-window.lib sfml-system.lib
+
+cl /EHsc SFML_text_input.cpp sudokuBoard.cpp /I include /link /LIBPATH:lib sfml-graphics.lib sfml-window.lib sfml-system.lib
